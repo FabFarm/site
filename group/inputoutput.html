@@ -33,7 +33,7 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="Students.html">Students</a></li>
+								<li><a href="students.html">Students</a></li>
 								<li><a href="group.html">Group Projects</a></li>
 								
 							</ul>
@@ -45,17 +45,22 @@
 					               <section id="wrapper">
                         <header>
                             <div class="inner">
-                                <h2>ASSIGNMENT : Measure the signals from an input devices and the Power comsuption for an output device</h2>
-                                <p>For this weeks we must to make some task with the equipment used at the Electronic´s Design Group Project week for measure the signals from an input device designed this week and the second part is about to learn how to calculate the power comsuption of an output device designed during this week.   </p>
+                                <h2>ASSIGNMENT : Measure the analog and digital signals from an input devices and the Power consumption for an output device.</h2>
+
+                                <p>For this weeks we must to make some task with the equipment used at the Electronic´s Design Group Project week for measure the signals from an input device designed this week and the second part is about to learn how to calculate the power comsuption of an output device designed at this week too.   </p>
 
                                 <h2>WORKFLOW :</h2>
                                 <p>Divided works - Connect boards - Measure signals input and power comsuption - Documented processes  </p>
 
 
                                 <h2>TOOLS USED</h2> 
+                          </b>
 <p>
 <li>Multimeters
 <li>Boards designed by the group 
+<li>LilyPad for more testers
+<li>Regulated Power Supply
+<li>Oscilloscope
 </p>
 
 							</div>
@@ -65,11 +70,13 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h3>GROUP TASK  I </h3>
-									<p>Measure inputs signals from input devices and the power consuption for an output device.</p>
-                                    <h3>The INPUT Measurement : </h3>
+									<h2>GROUP TASK  I </h2>
+									<p>Measure ANALOG levels AND DIGITALS signals from input devices.</p>
+                                    <h3>The INPUTs Measurements : </h3>
 
-                                    <p> For this weeks we decided to use the input device designed by Lucio with the idea to use the Output designed by Pilu. </p> 
+                                    <p> <h3> 1st Exercise :</h3></p>
+
+                                    <p> For this weeks we decided to use the input device designed by Lucio with the idea to use the Output designed by Pilu later.
 
                                     <p> So for understand better the input device you can visit all the design and fabrication processes here : 
                                         
@@ -81,9 +88,9 @@
                                         
                                         
                         
-                                    <h4>STEPS FOLLOWED  </h4>
+                                    <h3>STEPS FOLLOWED  </h3>
 
-                                   <p><b> 1. We attached the boards and connected them to the fablab computer 
+                                   <p><b> 1. </b> We attached the boards and power them : </p>
                                    
                                        
                                         <a href="http://academy.cba.mit.edu/classes/electronics_production/" class="image fit">
@@ -96,7 +103,7 @@
                                             </legend>
                                     
                                         </a>
-                                    <p> 2. We use the multimeter probes for measure the signals coming from the sensor :</p>
+                                    <p> 2. We use the oscilloscope probe for measure the signals levels coming from the sensor :</p>
 
 
 
@@ -108,46 +115,75 @@
                                     <li>
                                     <li>
                                     <li>
-                                    <li>                       
+                                    <li>   
+
+
+
+                                    <p> <h3> 2nd Exercise :</h3></p> 
+
+                                    <p> With the idea to measure further we use the lilypad development board also for measure the analog levels incoming from a LDR (light dependent resistor) attached at pin                   
                                     
-									<h3>GROUP TASK  II </h3>
-                                    <p>The Power Consuption of an Output Device </p>
+									<h2>GROUP TASK  II </h2>
+                                    <p>The Power Consumption Output Devices </p>
                                     <h3>The Output: </h3>
-
-
-
-                                    <p> As we mentioned above, for this part of the assignment we decided to use the output device designed by Pilu during the weekly assignment so if you want to know more about her design and fabrication processes check her page: </p> 
-
-                                    <p> 
+                                       
+                                        <a href="" class="image fit">
                                         
-                                    <a href="http://fab.academany.org/2018/labs/farmlabalgarve/students/lucio-pentagnaneto/exercise11.html" class="image fit">
-                                        
-                                        <img src="imagesg/outputpilu.jpg" alt="" />
+                                            <img src="imagesg/w12/6.jpg" alt="" />
+                                       
+                                       
                                         <legend>Pilu´s Output Device Board</legend>
                                     </a>
                                         
-                                        
-                        
-                                    <h4>STEPS FOLLOWED  </h4>
 
-                                   <p><b> 1. We use the multimeter again for  
-                                   
-                                       
-                                        <a href="http://academy.cba.mit.edu/classes/electronics_production/" class="image fit">
-                                        
-                                            <img src="imagesg/linetest.png" alt="" />
-                                       
-                                       
-                                            <legend>   
-                                       
-                                            </legend>
+                                    <p> <h3> 1st Exercise :</h3></p>
+
+                                    <p> As we mentioned above, for this part of the assignment we decided to use the output device designed by Pilu during the weekly assignment so if you want to know more about her design and fabrication processes check her page linked below. </p>
+
+                                    <p> As you can see at the pic the board have bright leds that my old instructor bought to China and hi never gave me the datasheet so this practice is a good oportunnity for learn about the consumption of them. </p>
+
+                                    <p> so this was the steps that we followed : </p>
+
+                                    <p><b>1. </b> Switch On the Regulated Power Supply and regulated it to <b>5V</b>.</p>
                                     
-                                        </a>
-                                    <p> 2. </p>
+                                    PIC
+
+                                    <p><b>2.</b> Attached the positive pin to anode and the negative to cathode. </p>
+
+                                    PIC
 
 
+                                    <p><b>3.</b> Measure 0.... A (Amperes) so for calculated the Power Consumption we applied the following formula : 
+                                     <b>V x A = W </b> .</p>
+
+                                     <p><b> 5 x 0.... = 0... W -------- 0...x 60 = ... Wh </b></p>
+
+                                     PIC DOING CALCULATES 
+
+                                     <p> <h3> 2nd Exercise :</h3></p>
+
+     								<p> This exercise consist in calculate the power consumption of teh Piezo used on the board.</p>
+
+     								<p><b>1.</b> We give 5V to the power suply.</p>
+
+                                     <p><b>2.</b> So we attached the positive pin to positive and the negative to negative. </p>
+
+                                    PIC
 
 
+                                    <p><b>3.</b> Measure 0.... A (Amperes) so for calculated the Power Consumption we applied the following formula : 
+                                     <b>V x A = W </b> .</p>
+
+                                     <p><b> 5 x 0.... = 0... W -------- 0...x 60 = ... Wh </b></p>
+
+                                     PIC DOING CALCULATES 
+
+                                     </p> 
+
+                                    <p> 
+                                        
+                                 
+                                        
 
 
                                     <h3> CONCLUSIONS</h3>
@@ -158,7 +194,7 @@
                                     <li>    
 
 
-                                    <p> If you want to visit our own pages check below : </p> 
+                                    <p> If you want to visit our own pages for know more about our design and fabrications for this week check below : </p> 
 
 									<section class="features">
 										<article>
