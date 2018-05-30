@@ -75,51 +75,58 @@
 									<h3 class="major">EMBBED PROGRAMMING</h3>
 									<p> <h3> Introduction :</h3></p>
 
-									<p>For this week, we must to attempt embbeded programming with other arquitectures so we decided to use some Raspberries present in our FabFram electronic´s inventory. </p>
+									<p>For this week, we must to attempt embbeded programming with other arquitectures so we decided to use some Raspberries present in our FabFarm electronic´s inventory. </p>
 
-									<p> Pilu have some hardware experience before because she develope during 2016-16 and 17 at Spanish famous bike racer "La Vuelta Ciclista" 6 interactives devices based in augmented reality bikes with Oculus, hall sensors,vibration motors and raspberries pi for interact manually with the touchscreen and select different scenes recorded in beautifull places. The programming language used for develope the initial application was OF ( Openframeworks) but for the second version we use phyton. The project finally was sold for Vodafone brand company.</p> 
+									<p> Pilu have some hardware experience with them before because she developed during 2016-16 and 17 at Spanish famous bike racer "La Vuelta Ciclista" 6 interactives devices based in augmented reality bikes with Oculus, hall sensors,vibration motors and raspberries pi for interact manually with the touchscreen and select different scenes recorded in beautifull places. The programming language used for develope the initial application was OF ( Openframeworks) but for the second version we use phyton. The project finally was sold for Vodafone brand company.</p> 
 
 									<p><center><img src="imagesg/w9/apps.jpg" alt="" /></center></p> 
 
 									<p> If you can know more about the project you can visit the page about it here : <a href="http://www.beready.es/casos/vodafone-vr.html" class=""><b>"Vodafone Bikes"</b></a> 
 
-									<p> So we decided to begin with RASPBERRY PI. </p>
-		<p><center><img src="imagesg/w9/rasp1.jpg" alt="" /></center></p> 
+									<p> So we decided to begin with RASPBERRY PI 3b. </p>
+		        <p><center><img src="imagesg/w9/rasp1.jpg" alt="" /></center></p> 
 				<p><center><img src="imagesg/w9/rasp2.jpg" alt="" /></center></p> 
 					
 
 
 								    <p> <h3> 1st Exercise : Getting Started </h3></p>
-								    <p>1. First you must to do for run any Raspberry Pi the connect up the device as a computer . The Raspberry Pi is a small computer that can do lots of things.We plug it into a monitor and attached a keyboard and mouse. </p>
+								    <p>1. First you must to do for run any Raspberry Pi is connect up the device as a computer . The Raspberry Pi is a small computer that can do lots of things. We plug it into a monitor and attached a keyboard and mouse. </p>
 
-								    PIC
 
-								    <p>2. Later isntall the software called "RASPBIAN" via "NOOBS", what´s that means? Using NOOBS is the easiest way to install Raspbian on our SD card. 
+								    <p>2. Later we must tp install the software called "RASPBIAN" via "NOOBS", what´s that means? Using NOOBS is the easiest way to install Raspbian on our SD card. </p>
 
 
 								    <p>3.Formatting the SD Card :</p>
-<p>If the SD card on which you wish to install Raspbian currently has an older version of Raspbian on it, you may wish to back up the files from the card first, as they will be overwritten during this process.Visit the SD Association’s website and download SD Formatter 4.0 for Windows or Mac.Follow the instructions to install the software.
+<p>If the SD card on which you wish to install Raspbian currently has an older version of Raspbian on it, you may wish to back up the files from the card first, as they will be overwritten during this process.</p>
 
-<p> We inserted our SD card into the computer or laptop’s SD card reader and make a note of the drive letter allocated to it, e.g. F:/.
+<p> We inserted our SD card into the computer or laptop’s SD card reader and make a note of the drive letter allocated to it, e.g. F:/. In SD Formatter, we selected the drive letter for our SD card, and formated it.</p>
 
-In SD Formatter, we elected the drive letter for our SD card, and format it.
+<p> 4. Later, pilu decided create an diskImage with noobs, but when we went to install some problems emerge that finally solve downloading Noobs from raspberry Pi official page: </p>
+
+<p><center><img src="imagesg/w9/pi1.jpg" alt="" /></center></p> 
+<p><center><img src="imagesg/w9/pi2.jpg" alt="" /></center></p> 
+<p><center><img src="imagesg/w9/pi3.jpg" alt="" /></center></p> 
+
 
 <p>4.Extracting NOOBS from the zip archive:</p>
 Next, we extracted the files from the NOOBS zip archive you downloaded from the Raspberry Pi website.</p>
 
 <p>5. Copying the files:</p>
 <p> Now we opened another Explorer/Finder window and navigate to the SD card. It’s best to position the two windows side by side. Select all the files from the NOOBS folder and drag them onto the SD card.</p>
-<p>6. Eject the SD card.</p>
+
+<p><center><img src="imagesg/w9/macos_copy.jpg" alt="" /></center></p> 
+
+<p>6. We ejected the SD card.</p>
 <p>7. Booting from NOOBS : </p>
 Once the files have been copied over, we inserted the micro SD Card into our Raspberry Pi, and plugged the Pi into a power source.The system offered us a choice when the installer has loaded and then clicked Install.
-
-PIC
 
 <p>8.Install
 
 <p>Clicked Yes at the warning dialog, When Raspbian has been installed, we clicked OK and our Raspberry Pi restarted and Raspbian was installed.</p>
 
-PIC
+<p><center><img src="imagesg/w9/pi9.jpg" alt="" /></center></p>
+<p><center><img src="imagesg/w9/pi10.jpg" alt="" /></center></p>
+
 
 	    <p> <h3> 2nd Exercise : </h3></p>
 
@@ -150,13 +157,18 @@ PIC
 
 <p><center><img src="imagesg/w9/led-3v3.jpg" alt="" /></center></p> 
 
-OUR PIC
+<p><center><img src="imagesg/w9/pi4.jpg" alt="" /></center></p>
 
 <p>The LED should light up. It will always be on, because it’s connected to a 3V3 pin, which is itself always on. Now we move it from 3V3 to GPIO pin 17:</p>
 
 <p><center><img src="imagesg/w9/led-gpio17.jpg" alt="" /></center></p> 
 
+<p><center><img src="imagesg/w9/pi7.jpg" alt="" /></center></p>
 
+VIDEO
+
+
+<p> <h3> 3rd Exercise : </h3></p>
 
 <h2><center><p>THE PROGRAMS</p></center></h2>
 
@@ -175,17 +187,24 @@ led = LED(17)
 
 <p>2. Later, we Pressed Enter at the keyboard.</p>
 
-<p>3. To make the LED switch on and off , we typed the following and pressed Enter too:
+<p>3. To make the LED switch on we typed the following and pressed Enter too:</p>
 
 <pre><code>
 led.on()
 </pre></code>
 
+<p>3. To make the LED switch of we typed the following and pressed Enter too:</p>
+
 <pre><code>
 led.off()
 </pre></code>
 
-<p>4. For flash the led, we also wrote this : </p>
+<p>Now we have the first programm so we save as a file called : led.py</p>
+
+
+<p> <h3> 4th Exercise : </h3></p>
+
+<p>1. The idea is to make the basic blinking example present in any programming language so we wrote this : </p>
 <pre><code>
 
 from gpiozero import LED
@@ -201,8 +220,12 @@ while True:
 
 </pre></code>
 
+<p> and of course we save as a new code </p>
 
-<p> The last thing we decided to made is the hello button so we attached the led to the GPIO 17 and a push button to the GPIO 2 and creating a new file we wrote this program: </p>
+
+<p> <h3> 5th Exercise : </h3></p>
+
+<p> The last thing we decided to made with Python is the hello button, so we attached the led to the GPIO 17 and a push button to the GPIO 2 and creating a new file we wrote this program: </p>
 
 <pre><code>
 from gpiozero import LED, Button
@@ -217,22 +240,18 @@ sleep(3)
 led.off()
 </pre></code>
 
-    <p> <h3> 3rd Exercise : </h3></p>
+    <p> <h3> 6th Exercise : </h3></p>
 
-<p><h3>Lighting the LED with PROCESSING</h3></p>
+<p>With the idea to try the arquitecture with other languages, we decide to use <b>Processing</b> for blinking the LED there: </p>
 
 <p> The other thing we made was used the same arquitecture with different language such as Processing for interface with the raspberry and create any graphics there can also be used for physical computing.</p>
 
-<p>Wire up a LED and a 330 ohm resistor to GPIO pin 17 : </p>
-
-PIC
-
-<p> Later we wrote this code for interact with the mouse too :</p>
 
 <p> 1. First step was to import the GPIO library in processing and declare the main variable for the led, his initial value or state 0 - LOW -false.</p>
 
 <p>2. At the setup we declare the GPIO pin mode as an OUTPUT and where is attached as parameters.</p>
-<p>3. Finally at the draw, we made a conditional for trigger the stae of the led to the background when we clicked the mouse.</p>
+
+<p>3. Finally at the draw, we made a conditional for trigger the state of the led to the background when we clicked the mouse.</p>
 
 <pre><code>
 
@@ -274,6 +293,12 @@ void mouseClicked() {
 </pre></code>
 
 
+    <p> <h3> 7th Exercise : </h3></p>
+
+    <p> For finnish, we decide to try another programming language present in Raspbian, is another open and fun tool from the MIT and Pilu use a lot with their childrens at the primary and secondary school : <b> SCRATCH</b> </p>
+
+
+<p><center><img src="imagesg/w9/scratch.jpg" alt="" /></center></p>
 
 
 
