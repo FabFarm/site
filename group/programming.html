@@ -77,7 +77,7 @@
 
 									<p>For this week, we must to attempt embbeded programming with other arquitectures so we decided to use some Raspberries present in our FabFarm electronic´s inventory. </p>
 
-									<p> Pilu have some hardware experience with them before because she developed during 2016-16 and 17 at Spanish famous bike racer "La Vuelta Ciclista" 6 interactives devices based in augmented reality bikes with Oculus, hall sensors,vibration motors and raspberries pi for interact manually with the touchscreen and select different scenes recorded in beautifull places. The programming language used for develope the initial application was OF ( Openframeworks) but for the second version we use phyton. The project finally was sold for Vodafone brand company.</p> 
+									<p> Pilu have some hardware experience with them before because she developed during 2016-16 and 17 at Spanish famous bike racer "La Vuelta Ciclista" 6 interactives devices based in augmented reality bikes with Oculus, hall sensors,vibration motors and raspberries pi for interact manually with the touchscreen and select different scenes recorded at beautifull spanish places. The programming language used for develope the initial application was OF ( Openframeworks) but for the second version we used phyton. The project finally was sold for Vodafone brand company.</p> 
 
 									<p><center><img src="imagesg/w9/apps.jpg" alt="" /></center></p> 
 
@@ -85,58 +85,70 @@
 
 									<p> So we decided to begin with RASPBERRY PI 3b. </p>
 		        <p><center><img src="imagesg/w9/rasp1.jpg" alt="" /></center></p> 
+		        <p><center><legend>Images extracted from Raspberry Official Webpage</legend></center></p>
 				<p><center><img src="imagesg/w9/rasp2.jpg" alt="" /></center></p> 
+  <p><center><legend>Hardware Graphic about connections</legend></center></p>
 					
 
 
 								    <p> <h3> 1st Exercise : Getting Started </h3></p>
-								    <p>1. First you must to do for run any Raspberry Pi is connect up the device as a computer . The Raspberry Pi is a small computer that can do lots of things. We plug it into a monitor and attached a keyboard and mouse. </p>
+
+								    <p> After we watched some tutorials and the Official Web page the first thing for do before was set up the things neccesary for run the Raspberry Pi : 
+<li> An HDMI Wire
+<li> A USB Wire
+<li> A USB mouse 
+<li> A USB keyboard
+<li> A Power Supply 
 
 
-								    <p>2. Later we must tp install the software called "RASPBIAN" via "NOOBS", what´s that means? Using NOOBS is the easiest way to install Raspbian on our SD card. </p>
+								    <p><b>1.</b> The Raspberry Pi is a small computer that can do lots of things, so we plugged it into a monitor and attached a keyboard and mouse to the USB Ports </p>
 
 
-								    <p>3.Formatting the SD Card :</p>
-<p>If the SD card on which you wish to install Raspbian currently has an older version of Raspbian on it, you may wish to back up the files from the card first, as they will be overwritten during this process.</p>
+								    <p><b>2.</b> Later we must tp install the software called "RASPBIAN" via "NOOBS", what´s that means? Using NOOBS is the easiest way to install Raspbian on our SD card. </p>
 
-<p> We inserted our SD card into the computer or laptop’s SD card reader and make a note of the drive letter allocated to it, e.g. F:/. In SD Formatter, we selected the drive letter for our SD card, and formated it.</p>
 
-<p> 4. Later, pilu decided create an diskImage with noobs, but when we went to install some problems emerge that finally solve downloading Noobs from raspberry Pi official page: </p>
+								    <p><b>3.</b>Formatting the SD Card :</p>
+<p>This step is always reccomended so we inserted our SD card into the computer or laptop’s SD card reader, in our case we use Pilu´s Laptop and make a note of the drive letter allocated to it, e.g. F:/. In SD Formatter, we selected the drive letter for our SD card, and formated it.</p>
 
-<p><center><img src="imagesg/w9/pi1.jpg" alt="" /></center></p> 
+<p><b> 4.</b> Later, pilu decided create an diskImage with noobs, but when we went to install some problems emerge that finally solve downloading Noobs from raspberry Pi official page: </p>
+
+<p><center><img src="imagesg/w9/pi1.jpg" alt="" /></center></p>
+   <p><center><legend>Pilu Trying using Apple Pi Baker</legend></center></p>
 <p><center><img src="imagesg/w9/pi2.jpg" alt="" /></center></p> 
 <p><center><img src="imagesg/w9/pi3.jpg" alt="" /></center></p> 
 
 
-<p>4.Extracting NOOBS from the zip archive:</p>
-Next, we extracted the files from the NOOBS zip archive you downloaded from the Raspberry Pi website.</p>
+<p><b>5.</b>Extracting NOOBS from the zip archive:</p>
+<p>Next, we extracted the files from the NOOBS zip archive you downloaded from the Raspberry Pi website.</p>
 
-<p>5. Copying the files:</p>
-<p> Now we opened another Explorer/Finder window and navigate to the SD card. It’s best to position the two windows side by side. Select all the files from the NOOBS folder and drag them onto the SD card.</p>
+<p><b>6.</b> Copying the files:</p>
+<p> Now we opened another Explorer/Finder window and navigate to the SD card and selected all the files from the NOOBS folder and drag them onto the SD card.</p>
 
 <p><center><img src="imagesg/w9/macos_copy.jpg" alt="" /></center></p> 
 
-<p>6. We ejected the SD card.</p>
-<p>7. Booting from NOOBS : </p>
-Once the files have been copied over, we inserted the micro SD Card into our Raspberry Pi, and plugged the Pi into a power source.The system offered us a choice when the installer has loaded and then clicked Install.
+<p><b>7.</b> We ejected the SD card so wea are ready for install after we booted Raspbian from Noobs :</p>
 
-<p>8.Install
+<p>Once the files have been copied over, we inserted the micro SD Card into our Raspberry Pi, and plugged the Pi into a power source.The system offered us a choice when the installer has loaded and then clicked Install.
 
-<p>Clicked Yes at the warning dialog, When Raspbian has been installed, we clicked OK and our Raspberry Pi restarted and Raspbian was installed.</p>
+<p><b>8.</b>Install
+
+<p>We clicked <b>"Yes"</b> at the warning dialog, when Raspbian has been installed, we clicked OK and our Raspberry Pi restarted and Raspbian was installed.</p>
 
 <p><center><img src="imagesg/w9/pi9.jpg" alt="" /></center></p>
+   <p><center><legend>Welcome Message</legend></center></p>
 <p><center><img src="imagesg/w9/pi10.jpg" alt="" /></center></p>
+<p><center><legend>Our Raspberry Pi Desktop</legend></center></p>
 
 
 	    <p> <h3> 2nd Exercise : </h3></p>
 
-	    <p>Learn how to use the GPIO pins on our Raspberry Pi to interface with electronic components, such as LEDs or any sensor.</p>
+	    <p>For continue with the practice, the basic is learn how to use the GPIO pins on our Raspberry Pi to interface with electronic components, such as LEDs or any sensor.</p>
 
-	    <p>One powerful feature of the Raspberry Pi is the row of GPIO pins along the top edge of the board. GPIO stands for General-Purpose Input/Output. These pins are a physical interface between the Raspberry Pi and the outside world. At the simplest level, you can think of them as switches that you can turn on or off (input) or that the Pi can turn on or off (output).</p>
+	    <p>One powerful feature of the Raspberry Pi is the row of GPIO pins along the top edge of the board. GPIO stands for General-Purpose Input/Output. These pins are a physical interface between the Raspberry Pi and the outside world. Thats means taht every pin could to be use as an input pin or output pin. </p>
 
 <p>The GPIO pins allow the Raspberry Pi to control and monitor the outside world by being connected to electronic circuits. The Pi is able to control LEDs, turning them on or off, run motors, and many other things. It’s also able to detect whether a switch has been pressed, the temperature, and light. We refer to this as physical computing.</p>
 
-<p>There are 40 pins on the Raspberry Pi (26 pins on early models), and they provide various different functions.</p>
+<p>There are 40 pins on the Raspberry Pi and they provide various different functions.</p>
 
 
 <p><center><img src="imagesg/w9/rasp3.jpg" alt="" /></center></p> 
@@ -184,7 +196,7 @@ VIDEO
 <p>1. First we made was type this 2 commands line : </p>
 <pre><code>
 from gpiozero import LED
-led = LED(17)
+led = LED(27)
 
 </pre></code>
 
@@ -220,7 +232,7 @@ led.off()
 from gpiozero import LED
 from time import sleep
 
-led = LED(17)
+led = LED(27)
 
 while True:
     led.on()
@@ -241,14 +253,14 @@ while True:
 
 <p> <h3> 5th Exercise : </h3></p>
 
-<p> The last thing we decided to made with Python is the hello button, so we attached the led to the GPIO 17 and a push button to the GPIO 2 and creating a new file we wrote this program: </p>
+<p> The last thing we decided to made with Python is the hello button, so we attached the led to the GPIO 27 and a push button to the GPIO 3 and creating a new file we wrote this program: </p>
 
 <pre><code>
 from gpiozero import LED, Button
 from time import sleep
 
-led = LED(17)
-button = Button(2)
+led = LED(27)
+button = Button(3)
 
 button.wait_for_press()
 led.on()
@@ -256,7 +268,7 @@ sleep(3)
 led.off()
 </pre></code>
 
-    <p> <h3> 6th Exercise : </h3></p>
+<p> <h3> 6th Exercise : </h3></p>
 
 <p>With the idea to try the arquitecture with other languages, we decide to use <b>Processing</b> for blinking the LED there: </p>
 
@@ -277,15 +289,15 @@ import processing.io.*; // use the GPIO library
 boolean ledOn = false;
 
 void setup() {
-  // set pin 17 as an output:
-  GPIO.pinMode(17, GPIO.OUTPUT);
+  // set pin 27 as an output:
+  GPIO.pinMode(27, GPIO.OUTPUT);
 }
 
 void draw() {
   if (ledOn == true) { // If the desired state is on, then:
 
   	// turn the LED on:
-    GPIO.digitalWrite(17, GPIO.HIGH);
+    GPIO.digitalWrite(27, GPIO.HIGH);
 
     // and set the background green:
     background(0,255, 0);
@@ -294,7 +306,7 @@ void draw() {
   else { // otherwise:
 
   	// turn the LED off:
-    GPIO.digitalWrite(17, GPIO.LOW);
+    GPIO.digitalWrite(27, GPIO.LOW);
 
     // and set the background black:
     background(0, 0, 0);
